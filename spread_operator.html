@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.js"></script>
+</head>
+<body>
+
+   <script type="text/babel">
+
+
+//       var adults = ["John", "Peter", "Maria"];
+//
+//       var kids = ["Johnny", "Pablito", "Marianita"];
+//
+//       var people = ["Juan", "Williams", ...kids, ...adults];
+//
+//       console.log(people); // ["Juan", "Williams", "Johnny", "Pablito", "Marianita", "John", "Peter", "Maria" ]
+
+//       console.log(...people); // Juan Williams Johnny Pablito Marianita John Peter Maria
+
+
+//       var sendData = function(username, email, password){
+//
+//           console.log("DATA SENT", username, email, password);
+//
+//       }
+//
+//       var someData = ["Hardik", "hardik@some.com", "secret"];
+//
+//      sendData(...someData); // DATA SENT Hardik hardik@some.com secret
+
+//      sendData(someData); // DATA SENT ["Hardik", "hardik@some.com", "secret"] undefined undefined
+//
+//       sendData.apply(null, someData); // DATA SENT Hardik hardik@some.com secret
+
+
+       var cars = [
+
+           {brand: "Honda", doors: 2},
+           {brand: "Porsche", doors: 4}
+       ];
+
+
+       var newCars = [
+
+         {brand: "Toyota", doors: 2},
+         {brand: "Mercedes", doors: 4}
+        ];
+
+//         cars.push(newCars);
+
+//         console.log(cars);
+
+         cars.push(...newCars);
+
+         console.log(...cars);
+
+    </script>
+   
+  
+</body>
+</html>
