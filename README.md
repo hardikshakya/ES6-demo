@@ -32,6 +32,6 @@ Basic example of some of the important features of ES6.
     - Classes
     - Class inheratance
 
-T13: Promises
+- T13: Promises
     - Using promises
     - Chaining promise
